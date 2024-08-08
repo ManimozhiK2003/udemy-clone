@@ -1,0 +1,208 @@
+*{
+    font-family: "Gabarito", sans-serif;
+    margin: 5px;
+    padding: 0;
+}
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    border-bottom: solid black 1px;
+}
+#udemy_logo  {
+    width: 100px;
+    border: 1px solid white;
+    height: 50px;
+}
+#search_box > input{
+    flex-grow: 2;
+    border: 0px solid black;
+    width: 95%;
+    height: 30px;
+    margin-right:15px;
+     /* border-radius: 30px; */
+     outline:none;
+}
+.search-btn {
+    width: 20px;
+    height: 20px;
+}
+#search_box {
+    flex-grow: 2;
+    margin-bottom: 1%;
+    display: flex;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.header_text {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
+#sign_up {
+   background: black;
+   border: 1px solid black;
+   width: 90px;
+   margin: 10px 3px;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+#log_in {
+   background: white;
+   border: 1px solid black;
+   width: 90px;
+   margin: 10px auto;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+#log_in > a{
+    color:black;
+text-decoration: none;
+}
+#sign_up >a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+#cart {
+   background: white;
+   border: 0px solid black;
+}
+#cart > img {
+width: 30px;
+   height: 30px;
+}
+#globe {
+background: white;
+   border: 1px solid black;
+   margin: 10px 3px;
+}
+#globe >img {
+
+width: 20px;
+   height: 20px;
+   
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    flex-basis: 20%;
+}
+.content p{
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.content p:hover{
+    background-color: white;
+    color: #A435F0;
+    cursor: pointer;
+}
+.contimg img{
+    width: 100%; 
+}
+
+.recommended{
+    padding: 10px;
+}
+.recommended__title{
+    color: black;
+}
+.recommended__content{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-top: 10px;
+}
+.coursecard{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-bottom: 100px;
+     height: 300px;
+}
+.coursecard img{
+    width: 100%;
+} 
+.coursecard button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px; 
+    color: white;
+    background-color: black;
+}
+.topics{
+    padding: 10px;
+}
+.topics__title{
+    color: black;
+}
+.topics__container{
+    display: flex;
+    margin-top: 10px;
+    gap:10px;
+   flex-wrap: wrap;
+}
+.topics__container p{
+    padding: 10px;
+    flex-grow: 1;
+    border: solid gray 2px;
+    flex-basis: 25%;  
+}
+.topics__container p:hover{
+    /* border: solid #A435F0 3px; */
+    background-color: #A435F0;
+    color: white;
+    cursor: pointer;
+}
+.popular{
+    padding: 15px;
+}
+.popular__title{
+    color: black;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px; 
+}
+.coursecard img{
+    height: 50%;
+    width: 100%;
+}
+.coursecard h3,p{
+    padding: 5px;
+}
+.coursecard a i{
+    margin-left: 10px;
+}
+.footer{
+padding: 30px;
+background-color: black;
+color: white;
+}
+.footerone{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footerone p{
+ margin: 20px;
+
+}
+.footertwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    color: #A435F0;
+}

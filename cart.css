@@ -1,0 +1,275 @@
+#header {
+    display: flex;
+    background: white;
+}
+#udemy_logo  {
+    width: 100px;
+    border: 1px solid white;
+    height: 50px;
+}
+#search_box > input{
+    flex-grow: 2;
+    border: 0px solid black;
+    width: 95%;
+    height: 30px;
+    margin-right:15px;
+     /* border-radius: 30px; */
+     outline:none;
+}
+.search-btn {
+    width: 20px;
+    height: 20px;
+}
+#search_box {
+    flex-grow: 2;
+    margin-bottom: 1%;
+    display: flex;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.header_text {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
+#sign_up {
+   background: black;
+   border: 1px solid black;
+   width: 90px;
+   margin: 10px 3px;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+#log_in {
+   background: white;
+   border: 1px solid black;
+   width: 90px;
+   margin: 10px auto;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+#cart {
+   background: white;
+   border: 0px solid black;
+}
+#cart > img {
+width: 30px;
+height: 30px;
+}
+#globe {
+background: white;
+   border: 1px solid black;
+   margin: 10px 3px;
+}
+#globe >img {
+
+width: 20px;
+   height: 20px;
+}
+* {
+    margin: 5px;
+}
+
+.shoppingcart {
+height:150px;
+background-color: black;
+margin-top:0px;
+
+
+}
+h1 {
+color:white;
+font-size:48px;
+padding:50px 80px;
+
+}
+#parent-cart {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:5%;
+    /* border:1px solid black; */
+    margin-top:3px;
+    }
+.cart_item {
+width:400px;
+margin:auto;
+font-size:18px;
+text-align: center;
+margin-top:50px;
+}
+.buttons {
+background-color:#A435F0;
+color:white;
+padding:5px;
+font-size:20px;
+}
+#coursenum {
+margin:30px 0px 30px 70px;
+font-size:24px;
+}
+.cart_items {
+/* border: 2px solid black; */
+display:flex;
+flex-direction:column;
+width:45%;
+flex-grow:2;
+flex-wrap: wrap;
+}
+
+.cart-div {
+height:60px;
+display: flex;
+flex-wrap: wrap;
+flex-direction:row ;
+border: 1px ridge rgb(189, 189, 189);
+}
+#total_prie {
+color:black;
+padding-left:10px;
+padding:0px;
+font-size:36px;
+
+
+}
+#checkout_btn {
+background:#A435F0;
+color:white;
+width:100%;
+height:50px;
+font-size:18px;
+border:none;
+margin:15px 0px;
+}
+
+#checkout {
+width:25%;
+margin:1% ;
+height:300px;
+color:black;;
+font-size:16px;
+/* border:1px solid blue; */
+
+}
+#coupon {
+border: 1px solid black;
+display:flex;
+flex-wrap: wrap;
+}
+#inp-coupon {
+font-size:12px;
+border:none;
+outline: none;
+flex-grow:2;
+
+}  
+#coupon-btn {
+background-color:#A435F0;
+font-size: 17px;
+color:white;
+height:30px;
+width:20%;
+margin:0px;
+border: none;
+
+}  
+#promotions {
+font-weight:800;
+margin-bottom: 15px;
+}
+
+#applied {
+color: green;
+}
+#not_applied {
+color: red;
+}
+
+.div1-style {
+/* border:1px solid red; */
+width:11%;
+padding:0px;
+
+}
+.div1-style img {
+width:100%;
+height:100%;
+margin:0px;
+}
+
+.div2-style {
+flex-grow:2;
+/* border:1px solid blue; */
+padding:0px;
+width:45%;
+font-weight: 900;
+}
+.div2-style p {
+color:black;
+font-weight: 300 ;
+
+
+}
+
+.div3-style {
+/* border: 1px solid orangered; */
+width:14%;
+}
+.div4-style {
+/* border:1px solid green; */
+width:12%;
+color:#A435F0;
+font-weight: 600;
+text-align: center;
+font-size: 18px;
+padding-top:12px;
+}
+.div3-style > button {
+color:#A435F0;
+border:none;
+background-color: white;
+margin:1px 3px;
+font-weight: 500;
+text-align: right !important;
+
+}
+
+#log_in > a {
+color:black;
+text-decoration: none;
+}
+#sign_up > a {
+color:white;
+text-decoration: none;
+}
+html,body {
+font-family: "Gabarito", sans-serif;
+}
+.footer{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    }
+    .footerone{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .footerone p{
+     margin: 20px;
+    
+    }
+    .footertwo h1{
+        color:#A435F0
+    }
+    .footertwo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        color: #A435F0;
+    }
